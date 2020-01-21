@@ -1,14 +1,18 @@
 def unsafe?(speed)
-if (speed > 60 || speed < 40)
-  true
-else
-  false
+  if (speed > 60 || speed < 40)
+    true
+  else
+    false
+  end
+  binding.pry
 end
+
 
 
 
 def not_safe?(speed)
 	if speed > 60 || speed < 40 ? true: false
+	binding.pry
 end
 	
 
